@@ -1,0 +1,23 @@
+{
+  "name": "library-app",
+  "version": "1.0.0",
+  "description": "library web app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tahsinates/library-app.git"
+  },
+  "author": "Tahsin Ates",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tahsinates/library-app/issues"
+  },
+  "homepage": "https://github.com/tahsinates/library-app#readme",
+  "dependencies": {
+    "chalk": "2.4.1",
+    "express": "4.16.4"
+  }
+}
