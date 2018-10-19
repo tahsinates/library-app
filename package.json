@@ -21,6 +21,7 @@
   "dependencies": {
     "chalk": "2.4.1",
     "debug": "4.1.0",
+    "ejs": "2.6.1",
     "express": "4.16.4",
     "morgan": "1.9.1",
     "nodemon": "1.18.4"
@@ -32,11 +33,13 @@
   },
   "nodemonConfig": {
     "restartable": "rs",
-    "ignore": ["node_modules/**/node_modules"],
+    "ignore": [
+      "node_modules/**/node_modules"
+    ],
     "delay": "2500",
     "env": {
       "NODE_ENV": "development",
-      "PORT": 4000
+      "PORT": 4001
     }
   }
 }
