@@ -11,6 +11,6 @@ app.get('/', function(req, res){
     res.send('Hello from my library app');
 });
 
-app.listen(3004, function(){
-    debug(`listening on port ${chalk.green('3004')}`);
+app.listen(3000, function(){
+    debug(`listening on port ${chalk.green('3000')}`);
 });
